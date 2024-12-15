@@ -39,7 +39,7 @@ project_root
 ## Analysis Performed
 The application performs the following analyses:
 ```
-|-- Analytics 1: Find the number of crashes (accidents) in which number of males killed are greater than 2?
+|-- Analysis 1: Find the number of crashes (accidents) in which number of males killed are greater than 2?
 |-- Analysis 2: How many two wheelers are booked for crashes?
 |-- Analysis 3: Determine the Top 5 Vehicle Makes of the cars present in the crashes in which driver died and Airbags did not deploy.
 |-- Analysis 4: Determine number of Vehicles with driver having valid licences involved in hit and run?
