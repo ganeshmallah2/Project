@@ -71,7 +71,7 @@ Setup Instructions
     ```
 4. Run the application:
     ```
-    spark-python app.py
+    spark-submit app.py
     ```
 
 ## Logging
