@@ -9,7 +9,7 @@ This application performs detailed analysis on crash-related data using Python a
 project_root
 |-- data
 |   |-- output
-|   |-- result.txt
+|       |-- result.txt
 |   |-- input
 |       |-- Charges_use.csv
 |       |-- Damages_use.csv
@@ -55,13 +55,14 @@ The application performs the following analyses:
 
 ### Prerequisites
 1. Python 3.8+
-2. Apache Spark
-3. Virtual environment tools (e.g., `venv`)
-
-### Setup Instructions
+2. Apache Spark 3.4.2
+3. java 1.8.0_25
+   
+## Virtual environment tools (e.g., `venv`)
+Setup Instructions
 1. Set up a virtual environment and activate it:
-    ```bash
-    python3 -m venv venv
+    ```
+    python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
     ```
 3. Install dependencies:
@@ -78,24 +79,24 @@ Logs are stored in the `logs/app.log` file for debugging and monitoring purposes
 
 ## Testing
 Unit tests are included in the `tests` directory. To run tests:
-```bash
+```
 pytest tests
 ```
 
 ## Contributing
 1. Fork the repository.
 2. Create a new branch for your feature:
-    ```bash
+    ```
     git checkout -b feature-name
     ```
-3. Commit your changes:
-    ```bash
-    git commit -m "Add feature description"
-    ```
-4. Push the branch and create a pull request.
+3. Push the branch and create a pull request.
      ```
-    git push
+    git .add
     ```
-
+4. Commit your changes:
+    ```
+    git commit -m "Crash Analysis"
+    ```
+    
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is not licensed under the MIT License. See the LICENSE file for details.
